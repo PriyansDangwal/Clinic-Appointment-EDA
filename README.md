@@ -145,6 +145,31 @@ python Clinic_eda.py
 
 ---
 
+
+## Visualizations
+
+### Gender Distribution
+
+![Gender Distribution](Graphs/gender_distribution.png)
+
+### Age Distribution
+
+![Age Distribution](Graphs/age_distribution.png)
+
+### Department Distribution
+
+![Department Distribution](Graphs/department_distribution.png)
+
+### Billing Distribution
+
+![Billing Distribution](Graphs/billing_distribution.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](Graphs/correlation_heatmap.png)
+
+---
+
 # 👨‍💻 Author
 
-**Priyansh Dangwal**
+**Priyans Dangwal**
