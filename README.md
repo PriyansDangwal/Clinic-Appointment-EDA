@@ -146,29 +146,60 @@ python Clinic_eda.py
 ---
 
 
-## Visualizations
+## 📊 Visualizations
 
 ### Gender Distribution
 
 ![Gender Distribution](Graphs/gender_distribution.png)
 
+**Key Insights**
+- The dataset contains **476 female**, **474 male**, and **50 unknown** patient records.
+- Male and female patients are almost equally represented, indicating a well-balanced dataset.
+- Only a small number of records have unknown gender values, which were retained after data cleaning.
+
+---
+
 ### Age Distribution
 
 ![Age Distribution](Graphs/age_distribution.png)
+
+**Key Insights**
+- Patient ages range from approximately **18 to 90 years**, providing a diverse age distribution.
+- The dataset contains patients across all adult age groups rather than being concentrated in a single age range.
+- Invalid or unrealistic age values were cleaned before performing the analysis.
+
+---
 
 ### Department Distribution
 
 ![Department Distribution](Graphs/department_distribution.png)
 
-### Billing Distribution
+**Key Insights**
+- **Neurology** has the highest number of patient appointments (**273**).
+- **Orthopedics** follows with **262** appointments, while **General Medicine** (**231**) and **Cardiology** (**234**) have relatively similar patient counts.
+- The distribution suggests that patient visits are fairly balanced across departments, with Neurology receiving slightly higher demand.
+
+---
+
+### Billing Amount Distribution
 
 ![Billing Distribution](Graphs/billing_distribution.png)
+
+**Key Insights**
+- Billing amounts range approximately from **₹50 to ₹500**.
+- Charges are spread across the entire billing range, indicating a variety of consultation and treatment costs.
+- No extreme concentration is observed in a single billing range, suggesting a diverse distribution of billing amounts.
+
+---
 
 ### Correlation Heatmap
 
 ![Correlation Heatmap](Graphs/correlation_heatmap.png)
 
----
+**Key Insights**
+- The correlation coefficient between **Age** and **Billing Amount** is approximately **0.00**.
+- This indicates **no significant linear relationship** between a patient's age and billing amount in the dataset.
+- Billing amounts appear to depend on factors other than age, such as department, treatment, or consultation type.
 
 # 👨‍💻 Author
 
